@@ -1,0 +1,43 @@
+----------------------------------------------------------
+simReversi
+ - a simple game engine for Reversi
+   and released under BSD-style license.
+----------------------------------------------------------
+
+This is a simple game engine for the game Reversi.
+The board is 8*8, and the coordinates for a move is (x,y), 
+where x and y are from 1 to 8, used by commands.
+The evaluton function of this engine is quit simple, 
+which just count the number of black and white stones in the board.
+Hope that optimization for that should be done by someone.
+For Reversi, see: http://en.wikipedia.org/wiki/Reversi.
+
+----------------------------------------------------------
+Compile
+----------------------------------------------------------
+* For Linux Family
+  make
+* For Windows Family
+  chose your perferred compiler.
+
+----------------------------------------------------------
+Run the game
+----------------------------------------------------------
+* Run simReversi
+* Command q/p/d/s/n/u/w/b
+  q     - Quite game
+  p     - Print board
+  d x   - set the search Depth x
+  s     - Start game
+  n     - return the Next move
+  u     - move Undo
+  b x y - move Black x y
+  w x y - move White x y
+
+----------------------------------------------------------
+
+Have fun!
+
+Lang Lee
+* liliang010@gmail.com
+
